@@ -2,6 +2,12 @@
 
 > This repository contains spoilers for the first completed Arcus Prize challenge.
 
+
+
+https://github.com/user-attachments/assets/089a28c3-6ee5-49cd-a5a6-f0e8aa03a453
+
+
+
 [Augusta Labs' Ode Triunfal challenge](https://arcus.augustalabs.ai/) presented an excerpt by Fernando Pessoa and a downloadable nanoGPT checkpoint containing a model with 50 million parameters. The model could produce plausible Portuguese. However, one prompt made it start a flag, imitate the mechanical sounds at the end of *Ode Triunfal*, and then stop with a printer error:
 
 ```text
