@@ -30,7 +30,7 @@ No submission receipt or private proof identifier is included here.
 ## The solution in one flowchart
 
 ```mermaid
-flowchart LR
+flowchart TD
     A["Poem: Ode Triunfal"] --> B["Author: Álvaro de Campos"]
     B --> C["Prompt shaped like the missing tokenizer entry"]
     C --> D["Model produces a flag prefix + machine noise"]
