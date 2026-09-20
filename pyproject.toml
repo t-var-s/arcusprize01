@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "arcus-ode-triunfal"
+version = "1.0.0"
+description = "A reproducible, code-oriented solution to the Arcus Ode Triunfal challenge"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy>=2.0",
+  "pillow>=11.0",
+  "torch>=2.7",
+  "zxing-cpp>=2.3",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+arcus-ode = "arcus_ode.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/arcus_ode"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+

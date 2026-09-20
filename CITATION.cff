@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If this repository helps your work, please cite it using the metadata below."
+title: "Arcus: Ode Triunfal — a code-oriented solution"
+type: software
+authors:
+  - family-names: Tavares
+    given-names: Ricardo
+version: 1.0.0
+date-released: 2026-07-14
+abstract: >-
+  A reproducible extraction of eight Aztec-encoded chunks from the residual
+  stream of the Arcus Ode Triunfal language-model checkpoint, accompanied by
+  an investigation narrative and technical notes.
+keywords:
+  - language models
+  - residual stream
+  - activation steganography
+  - interpretability
+  - Aztec code
+license: MIT
+
